@@ -2,16 +2,16 @@ resources:
   - name: sample-scriptpvtgitreporepo
     type: gitRepo
     allowPublicAccess: true
-    integration: bitbucket
+    integration: github
     pointer:
-      sourceName: "shiptest-rc-me/sample-script-pvt"
+      sourceName: "bell-rc/testprivate"
       branch: master
   
   - name: sample-scriptpubgitreporepo
     type: gitRepo
     integration: bitbucket
     pointer:
-      sourceName: "shiptest-rc-me/sample-script-pub"
+      sourceName: "bell-rc/sample_publicrepo"
       branch: master
   
   - name: ddc-clusterpvt
